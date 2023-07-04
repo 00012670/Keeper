@@ -7,13 +7,13 @@ To run Keeper locally, follow these steps:
 Clone the repository:
 
 ```bash
- `git clone https://github.com/00012670/Keeper.git`
+git clone https://github.com/00012670/Keeper.git
 ```
 
 Navigate to the project directory:
 
 ```bash
- `cd Keeper`
+cd Keeper
 ```
 
 Install the dependencies:
@@ -24,7 +24,7 @@ npm install
 Start the development server:
 
 ```bash
- `npm start`
+npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -32,7 +32,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 You may also see any lint errors in the console.
 
 ```bash
-`npm test`
+npm test
 ```
 
 Launches the test runner in the interactive watch mode.\
