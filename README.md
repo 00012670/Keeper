@@ -13,15 +13,19 @@ Navigate to the project directory:
  `cd Keeper`
 
 Install the dependencies:
+
  `npm install`
 
 Start the development server:
+
  `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 You may also see any lint errors in the console.
+
 `npm test`
+
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
@@ -32,27 +36,31 @@ Delete notes by clicking the delete button.
 Responsive design to ensure a great user experience on different devices.
 
 ## Components
-### App
+#### App
 The main component that renders the header, note creation area, note list, and footer. It manages the state of notes and handles note addition and deletion.
 
-### CreateArea
+#### Header
+Displays the title and logo of the web app.
+
+#### CreateArea
 A component that provides a form for creating new notes. It manages the state of the input fields and triggers the onAdd function passed from the parent component when a new note is submitted.
 
-### Note
+#### Note
 A component that represents an individual note. It displays the note's title, content, and a delete button. Clicking the delete button triggers the onDelete function passed from the parent component.
 
-### Footer
+#### Footer
 Displays the copyright information.
 
-## Dependencies
-"@emotion/react: ^11.11.1",
-"@emotion/styled: ^11.11.0",
-"@material-ui/core: ^4.12.4",
-"@mui/icons-material: ^5.11.16",
-"react: ^18.2.0",
-"react-dom: ^18.2.0",
-"react-scripts: ^5.0.1",
-"web-vitals: ^3.3.2",
+## Application dependencies’ list
+  
+  "@emotion/react: ^11.11.1",
+  "@emotion/styled: ^11.11.0",
+  "@material-ui/core: ^4.12.4",
+  "@mui/icons-material: ^5.11.16",
+  "react: ^18.2.0",
+  "react-dom: ^18.2.0",
+  "react-scripts: ^5.0.1",
+  "web-vitals: ^3.3.2",
 
 
 ## Learn More
