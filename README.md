@@ -53,14 +53,14 @@ Displays the copyright information.
 
 ## Dependencies
   
-"@emotion/react": "^11.11.1",
-"@emotion/styled": "^11.11.0",
-"@material-ui/core": "^4.12.4",
-"@mui/icons-material": "^5.11.16",
-"react": "^18.2.0",
-"react-dom": "^18.2.0",
-"react-scripts": "^5.0.1",
-"web-vitals": "^3.3.2"
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.11.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^3.3.2"
 
 
 ## Learn More
